@@ -18,7 +18,7 @@ import Blocks from './chapter_15/Blocks';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Blocks />
+    <ConfirmButton />
   </React.StrictMode>,
   document.getElementById('root')
 );
