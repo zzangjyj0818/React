@@ -2,7 +2,7 @@ import { useState, useCallback, useRef } from "react";
 import TodoTemplate from "./components/TodoTemplate";
 import TodoInsert from "./components/TodoInsert";
 import TodoList from "./components/TodoList";
-import { flushSync } from "react-dom";
+
 
 function createBulkTodos(){
   const array = [];
